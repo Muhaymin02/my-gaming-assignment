@@ -136,9 +136,6 @@
 .list{
     display: flex;
     width: 200px;
-    background: transparent;
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }
 .list-name{
     margin-top: 20px;
@@ -154,4 +151,55 @@
     gap: 30px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 150px;
+}
+footer{
+    background-color: rgb(15, 15, 39);
+    height: 400px;
+}
+.another-logo{
+    padding-left: 700px;
+    padding-top: 75px;
+
+}
+.gaming-logo{
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+}
+.gaming-logo i{
+    padding-top: 10px;
+    padding-right: 3px;
+}
+.gaming-logo span{
+    color: palevioletred;
+}
+.social-media{
+    padding-left: 550px;
+    padding-top: 30px;
+    
+}
+.social-media a{
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.media-accounts{
+     padding-left: 730px;
+     color: white;
+     padding-top: 20px;
+}
+.media-accounts i{
+    padding-right: 20px;
+}
+.footer-description {
+    padding-left: 550px;
+    color: white; display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.copyright{
+    padding-left: 600px;
+    color: white;
+    padding-top: 20px;
 }
